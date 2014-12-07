@@ -1,0 +1,28 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="PANEL_1" type="PANEL_COMPONENT">
+			<bi:property name="LEFT_MARGIN" value="136"/>
+			<bi:property name="TOP_MARGIN" value="54"/>
+			<bi:property name="WIDTH" value="460"/>
+			<bi:property name="HEIGHT" value="46"/>
+			<bi:property name="CSS_STYLE" value="border-bottom:2px solid #00abc9;&#13;&#10;   padding-bottom:27px;&#13;&#10;   margin-bottom:0px !important;&#13;&#10;   color: #3c4043;&#13;&#10;   font-weight:700;"/>
+			<bi:component name="TEXT_1" type="TEXT_COMPONENT">
+				<bi:property name="TEXT" value="200"/>
+				<bi:property name="LEFT_MARGIN" value="71"/>
+				<bi:property name="TOP_MARGIN" value="22"/>
+				<bi:property name="CSS_STYLE" value="margin:0 auto;&#13;&#10;    display:block;&#13;&#10;    border-radius:100%;&#13;&#10;    height:30px;&#13;&#10;    width:40px;&#13;&#10;    padding:6px 0 0 0px;&#13;&#10;    font-size:20px;&#13;&#10;background-color:#00abc9;&#13;&#10;    color:#fff;"/>
+				<bi:property name="STYLE" value="STANDARD"/>
+			</bi:component>
+			<bi:component name="TEXT_2" type="TEXT_COMPONENT">
+				<bi:property name="TEXT" value="100"/>
+				<bi:property name="LEFT_MARGIN" value="16"/>
+				<bi:property name="TOP_MARGIN" value="21"/>
+				<bi:property name="CSS_STYLE" value="margin:0 auto;&#13;&#10;    display:block;&#13;&#10;    border-radius:100%;&#13;&#10;    height:30px;&#13;&#10;    width:40px;&#13;&#10;    padding:6px 0 0 0px;&#13;&#10;    font-size:20px;&#13;&#10;background-color:#00abc9;&#13;&#10;    color:#fff;"/>
+				<bi:property name="STYLE" value="STANDARD"/>
+			</bi:component>
+		</bi:component>
+	</bi:component>
+</bi:biapp>

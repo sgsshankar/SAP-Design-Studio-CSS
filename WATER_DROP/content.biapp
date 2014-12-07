@@ -1,0 +1,13 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="TEXT_1" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="Save Water"/>
+			<bi:property name="LEFT_MARGIN" value="290"/>
+			<bi:property name="TOP_MARGIN" value="110"/>
+			<bi:property name="CSS_STYLE" value="    width: 200px;&#13;&#10;    height: 200px;&#13;&#10;    position: relative;&#13;&#10;    top: 70px;&#13;&#10;    left: 25px;&#13;&#10;    border-bottom-right-radius: 50%;&#13;&#10;    border-bottom-left-radius: 50%;&#13;&#10;    border-top-left-radius: 50%;&#13;&#10;    box-shadow:  inset 0 0 10px rgba(64,145,148,0.5);&#13;&#10;    border-left: 5px solid rgba(227,246,249,0.5) ;&#13;&#10;    -ms-transform: rotate(-45deg);&#13;&#10;    -webkit-transform: rotate(-45deg);&#13;&#10;    transform: rotate(-45deg);&#13;&#10;&#13;&#10;    background: -webkit-radial-gradient(top right,rgba(248, 255, 255,1), rgba(254, 213, 230,0.1)10%, rgba(188, 249, 249,1), rgba(59, 218, 188,0.8), rgba(59, 196, 218,0.9), rgba(227, 246, 249,1));&#13;&#10;    background: -o-radial-gradient(rgba(248, 255, 255,1), rgba(254, 213, 230,0.1)10%, rgba(188, 249, 249,1), rgba(59, 218, 188,1), rgba(59, 196, 218,0.9), rgba(227, 246, 249,1)); &#13;&#10;    background: -moz-radial-gradient(rgba(248, 255, 255,1), rgba(254, 213, 230,0.1)10%, rgba(188, 249, 249,1), rgba(59, 218, 188,1), rgba(59, 196, 218,0.9), rgba(227, 246, 249,1)); &#13;&#10;    background: radial-gradient(at top right,rgba(248, 255, 255,1), rgba(254, 213, 230,0.1)10%, rgba(188, 249, 249,1), rgba(59, 218, 188,0.8), rgba(59, 196, 218,0.9), rgba(227, 246, 249,1)); "/>
+		</bi:component>
+	</bi:component>
+</bi:biapp>

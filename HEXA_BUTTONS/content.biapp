@@ -1,0 +1,50 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+		<bi:property name="CUSTOM_CSS" value="style.css"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="TEXT_1" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="Click Me"/>
+			<bi:property name="LEFT_MARGIN" value="293"/>
+			<bi:property name="TOP_MARGIN" value="-13"/>
+			<bi:property name="CSS_CLASS" value="button indigo"/>
+		</bi:component>
+		<bi:component name="TEXT_2" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="Click Me"/>
+			<bi:property name="LEFT_MARGIN" value="299"/>
+			<bi:property name="TOP_MARGIN" value="153"/>
+			<bi:property name="CSS_CLASS" value="button violet"/>
+		</bi:component>
+		<bi:component name="TEXT_3" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="Click Me"/>
+			<bi:property name="LEFT_MARGIN" value="292"/>
+			<bi:property name="TOP_MARGIN" value="76"/>
+			<bi:property name="CSS_CLASS" value="button slateblue"/>
+		</bi:component>
+		<bi:component name="TEXT_4" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="Click Me"/>
+			<bi:property name="LEFT_MARGIN" value="301"/>
+			<bi:property name="TOP_MARGIN" value="242"/>
+			<bi:property name="CSS_CLASS" value="button mediumseagreen"/>
+		</bi:component>
+		<bi:component name="TEXT_5" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="Click Me"/>
+			<bi:property name="LEFT_MARGIN" value="302"/>
+			<bi:property name="TOP_MARGIN" value="326"/>
+			<bi:property name="CSS_CLASS" value="button yellowgreen"/>
+		</bi:component>
+		<bi:component name="TEXT_6" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="Click Me"/>
+			<bi:property name="LEFT_MARGIN" value="511"/>
+			<bi:property name="TOP_MARGIN" value="121"/>
+			<bi:property name="CSS_CLASS" value="button orange"/>
+		</bi:component>
+		<bi:component name="TEXT_7" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="Click Me"/>
+			<bi:property name="LEFT_MARGIN" value="562"/>
+			<bi:property name="TOP_MARGIN" value="289"/>
+			<bi:property name="CSS_CLASS" value="button indianred"/>
+		</bi:component>
+	</bi:component>
+</bi:biapp>

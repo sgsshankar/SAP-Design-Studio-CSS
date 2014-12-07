@@ -1,0 +1,37 @@
+.ribbon {
+background-color:#16a085; /* bg color for center of ribbon */
+	border:3px solid #eee; /*border color for center of ribbon */
+	padding: 0 20px;
+height: 56px;
+display: inline-block;
+position: relative;
+margin-left: 56px;
+margin-right: 56px;
+}
+
+
+
+.ribbon:before, .ribbon:after {
+content: '.';
+text-indent: -9999em;
+height: 0;
+width: 0;
+border-style: solid;
+border-width: 28px;
+position: absolute;
+left: -45px;
+top: 10px;
+display: block;
+z-index: -1;
+}
+
+.ribbon:before {
+border-color: #138a72 #138a72 #138a72 transparent; /*bg color for left side of ribbon */
+
+}
+
+.ribbon:after {
+border-color: #138a72 transparent #138a72 #138a72; /* bg color for right side of ribbon */
+right: -45px;
+left: auto;
+}

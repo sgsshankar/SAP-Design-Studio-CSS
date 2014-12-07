@@ -1,0 +1,56 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+		<bi:property name="CUSTOM_CSS" value="style.css"/>
+		<bi:property name="ON_STARTUP">
+			<bi:value><![CDATA[var t = 1000;
+$('._draw > li > a').each( function(index) {
+  $(this).delay(index*t*0.25).animate(
+    {
+      'letter-spacing':'10px',
+      'padding-left':'75px',
+      'opacity':'0.8'
+    },
+    t
+  ).animate(
+    {
+      'letter-spacing':'1px',
+      'padding-left':'50px',
+      'opacity':'1'
+    },
+    0.5*t
+  );
+});]]></bi:value>
+		</bi:property>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="PANEL_1" type="PANEL_COMPONENT">
+			<bi:property name="LEFT_MARGIN" value="501"/>
+			<bi:property name="TOP_MARGIN" value="154"/>
+			<bi:property name="WIDTH" value="210"/>
+			<bi:property name="HEIGHT" value="210"/>
+			<bi:property name="CSS_STYLE" value="&#13;&#10;	border-radius: 50%;&#13;&#10;	position: absolute;&#13;&#10;	background: radial-gradient(#00C1AB,#0A6FD9);&#13;&#10;	transform: translate(-50%, -50%);&#13;&#10;	border:4px solid #EEEEEE;&#13;&#10;	border-style: dotted;&#13;&#10;	box-shadow: 0 0 0 5px #4C77BE, 0 0 0 10px #EEEEEE;"/>
+			<bi:component name="PANEL_2" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="-2"/>
+				<bi:property name="TOP_MARGIN" value="-5"/>
+				<bi:property name="CSS_STYLE" value="&#13;&#10;	position: absolute;&#13;&#10;	top: 0;&#13;&#10;	left: 0;&#13;&#10;	transition:all 2s;&#13;&#10;	-webkit-transform:rotate(45deg);&#13;&#10;"/>
+				<bi:property name="WIDTH" value="210"/>
+				<bi:property name="HEIGHT" value="210"/>
+				<bi:component name="PANEL_3" type="PANEL_COMPONENT">
+					<bi:property name="LEFT_MARGIN" value="105"/>
+					<bi:property name="TOP_MARGIN" value="0"/>
+					<bi:property name="WIDTH" value="10"/>
+					<bi:property name="HEIGHT" value="10"/>
+					<bi:property name="CSS_STYLE" value="&#13;&#10;	border-left: 18px solid transparent;&#13;&#10;	border-right: 18px solid transparent;&#13;&#10;	border-bottom: 100px solid #D91E18;&#13;&#10;	position: absolute;&#13;&#10;	left:50%;&#13;&#10;	top:0;&#13;&#10;	transform: translateX(-50%);"/>
+				</bi:component>
+				<bi:component name="PANEL_4" type="PANEL_COMPONENT">
+					<bi:property name="LEFT_MARGIN" value="105"/>
+					<bi:property name="TOP_MARGIN" value="112"/>
+					<bi:property name="CSS_STYLE" value="	border-left: 18px solid transparent;&#13;&#10;	border-right: 18px solid transparent;&#13;&#10;	border-top: 100px solid #EEEEEE;&#13;&#10;	position: absolute;&#13;&#10;	left:50%;&#13;&#10;	top:50%;&#13;&#10;	transform: translateX(-50%);"/>
+					<bi:property name="WIDTH" value="10"/>
+					<bi:property name="HEIGHT" value="10"/>
+				</bi:component>
+			</bi:component>
+		</bi:component>
+	</bi:component>
+</bi:biapp>

@@ -1,0 +1,31 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+		<bi:property name="CUSTOM_CSS" value="style.css"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="PANEL_1" type="PANEL_COMPONENT">
+			<bi:property name="LEFT_MARGIN" value="21"/>
+			<bi:property name="TOP_MARGIN" value="22"/>
+			<bi:property name="WIDTH" value="719"/>
+			<bi:property name="HEIGHT" value="435"/>
+			<bi:property name="CSS_STYLE" value="    background: #c9dbe9;&#13;&#10;  background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);&#13;&#10;  background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);&#13;&#10;  background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);"/>
+			<bi:component name="PANEL_2" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="522"/>
+				<bi:property name="TOP_MARGIN" value="93"/>
+				<bi:property name="CSS_CLASS" value="cloud x1"/>
+			</bi:component>
+			<bi:component name="PANEL_3" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="445"/>
+				<bi:property name="TOP_MARGIN" value="236"/>
+				<bi:property name="CSS_CLASS" value="cloud x2"/>
+				<bi:property name="HEIGHT" value="43"/>
+			</bi:component>
+			<bi:component name="PANEL_4" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="187"/>
+				<bi:property name="TOP_MARGIN" value="285"/>
+				<bi:property name="CSS_CLASS" value="cloud x3"/>
+			</bi:component>
+		</bi:component>
+	</bi:component>
+</bi:biapp>

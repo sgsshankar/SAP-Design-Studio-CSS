@@ -1,0 +1,37 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="TEXT_1" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="Visual BI"/>
+			<bi:property name="LEFT_MARGIN" value="97"/>
+			<bi:property name="TOP_MARGIN" value="105"/>
+			<bi:property name="WIDTH" value="265"/>
+			<bi:property name="HEIGHT" value="59"/>
+			<bi:property name="CSS_STYLE" value="color: #f6f5f0;&#13;&#10;  font-family: &apos;Righteous&apos;, cursive;&#13;&#10;  text-shadow: 1px 1px #b0b0b0, 2px 2px #b0b0b0, 3px 3px #797979, 4px 4px #797979, 5px 5px #5c5c5c, 6px 6px #5c5c5c, 7px 7px #404040, 8px 8px #404040, 9px 9px #232323, 10px 10px #232323, 11px 11px #111111, 12px 12px #111111, 13px 13px #000000, 14px 14px #000000;&#13;&#10;  font-size: 50px;&#13;&#10;  line-height: 80px;&#13;&#10;  text-align: center;&#13;&#10;color: #e8d716;&#13;&#10;  font-size: 120px;&#13;&#10;  text-shadow: 1px 1px #d3c206, 2px 2px #d3c206, 3px 3px #b3a400, 4px 4px #b3a400, 5px 5px #968a00, 6px 6px #968a00, 7px 7px #605803, 8px 8px #605803, 9px 9px #393400, 10px 10px #393400, 11px 11px #161401, 12px 12px #161401, 13px 13px #000000, 14px 14px #000000;"/>
+		</bi:component>
+		<bi:component name="TEXT_2" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="Look Forward"/>
+			<bi:property name="LEFT_MARGIN" value="123"/>
+			<bi:property name="TOP_MARGIN" value="187"/>
+			<bi:property name="CSS_STYLE" value="color: #f6f5f0;&#13;&#10;  font-family: &apos;Righteous&apos;, cursive;&#13;&#10;  text-shadow: 1px 1px #b0b0b0, 2px 2px #b0b0b0, 3px 3px #797979, 4px 4px #797979, 5px 5px #5c5c5c, 6px 6px #5c5c5c, 7px 7px #404040, 8px 8px #404040, 9px 9px #232323, 10px 10px #232323, 11px 11px #111111, 12px 12px #111111, 13px 13px #000000, 14px 14px #000000;&#13;&#10;  font-size: 30px;&#13;&#10;  line-height: 10px;&#13;&#10;  line-width: 30px&#13;&#10;  text-align: center;"/>
+			<bi:property name="WIDTH" value="109"/>
+			<bi:property name="HEIGHT" value="31"/>
+		</bi:component>
+		<bi:component name="TEXT_3" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="Think Ahead"/>
+			<bi:property name="LEFT_MARGIN" value="251"/>
+			<bi:property name="TOP_MARGIN" value="190"/>
+			<bi:property name="CSS_STYLE" value="color: #f6f5f0;&#13;&#10;  font-family: &apos;Righteous&apos;, cursive;&#13;&#10;  text-shadow: 1px 1px #b0b0b0, 2px 2px #b0b0b0, 3px 3px #797979, 4px 4px #797979, 5px 5px #5c5c5c, 6px 6px #5c5c5c, 7px 7px #404040, 8px 8px #404040, 9px 9px #232323, 10px 10px #232323, 11px 11px #111111, 12px 12px #111111, 13px 13px #000000, 14px 14px #000000;&#13;&#10;  font-size: 30px;&#13;&#10;  line-height: 10px;&#13;&#10;  line-width: 30px&#13;&#10;  text-align: center;"/>
+			<bi:property name="WIDTH" value="109"/>
+			<bi:property name="HEIGHT" value="31"/>
+		</bi:component>
+		<bi:component name="TEXT_4" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="NEON"/>
+			<bi:property name="LEFT_MARGIN" value="120"/>
+			<bi:property name="TOP_MARGIN" value="337"/>
+			<bi:property name="CSS_STYLE" value="color: transparent;&#13;&#10;  font-size: 100px;&#13;&#10;  font-family: Londrina Sketch;&#13;&#10;  font-style: italic;&#13;&#10;  text-decoration: none;&#13;&#10;  letter-spacing: .06em;&#13;&#10;  text-shadow:&#13;&#10;    /* thin yellow glow */&#13;&#10;    0 0 .02em hsla(80, 100%, 60%, 1),&#13;&#10;    /* reflected thin yellow glow */&#13;&#10;    .04em .02em .05em hsla(80, 100%, 70%, .8),&#13;&#10;    /* red glow */&#13;&#10;    .03em .03em .1em #f00,&#13;&#10;    .03em .03em .1em #f00,&#13;&#10;    -.03em .03em .1em #f00,&#13;&#10;    -.03em -.03em .1em #f00,&#13;&#10;    /* more red glow */&#13;&#10;    .03em .03em .8em #f00,&#13;&#10;    .03em -.03em .8em #f00,&#13;&#10;    -.03em .03em .8em #f00,&#13;&#10;    -.03em -.03em .8em #f00;"/>
+		</bi:component>
+	</bi:component>
+</bi:biapp>
