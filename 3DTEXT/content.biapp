@@ -1,0 +1,14 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+		<bi:property name="CUSTOM_CSS" value="style.css"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="TEXT_1" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="DESIGN STUDIO"/>
+			<bi:property name="LEFT_MARGIN" value="158"/>
+			<bi:property name="TOP_MARGIN" value="144"/>
+			<bi:property name="CSS_CLASS" value="text"/>
+		</bi:component>
+	</bi:component>
+</bi:biapp>
