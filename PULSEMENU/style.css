@@ -1,0 +1,76 @@
+.LateralOculto {
+  margin: 0;
+  padding: 1em;
+  left: -10em;
+  position: fixed;
+  top: 50%;
+  z-index: 30;
+  top: -moz-calc(48.5%);
+  top: -webkit-calc(48.5%);
+  top: -o-calc(48.5%);
+  top: -ms-calc(48.5%);
+  background: none repeat scroll 0 0 #A0D1FF;
+  border-top-right-radius: .7em;
+  border-bottom-right-radius: .7em;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  animation: pulse .5s infinite alternate running;
+}
+  .LateralOculto:hover {
+    left: -1em;
+    animation-play-state: paused;
+  }
+  .LateralOculto:hover:after {
+    left: 0;
+    opacity: 0;
+  }
+  .LateralOculto:after {
+    font: normal normal normal 1em/1 FontAwesome;
+    content: "\f138";
+    color: #0C7CBA;
+    position: relative;
+    left: 3.6em;
+    width: 12px;
+    height: 12px;
+    padding: 2em 1em;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .LateralOculto:after:hover:after {
+    left: 0;
+    opacity: 0;
+  }
+  .LateralOculto a {
+    color: #1495E7;
+    text-decoration: none;
+    position: relative;
+    left: 2em;
+  }
+  .LateralOculto a:hover {
+    color: #1461E7;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+
+@keyframes pulse {
+   from {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+    to {
+        transform: translateX(.3em);
+        -webkit-transform: translateX(.3em);
+        -ms-transform: translateX(.3em);
+        -moz-transform: translateX(.3em);
+        -o-transform: translateX(.3em);
+    }
+}
