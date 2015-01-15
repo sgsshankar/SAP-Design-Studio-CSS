@@ -1,0 +1,22 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+		<bi:property name="CUSTOM_CSS" value="style.css"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="PANEL_1" type="PANEL_COMPONENT">
+			<bi:property name="LEFT_MARGIN" value="23"/>
+			<bi:property name="TOP_MARGIN" value="-25"/>
+			<bi:property name="CSS_CLASS" value="iphone"/>
+			<bi:property name="HEIGHT" value="495"/>
+			<bi:property name="WIDTH" value="250"/>
+			<bi:component name="PANEL_2" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="12"/>
+				<bi:property name="TOP_MARGIN" value="60"/>
+				<bi:property name="WIDTH" value="226"/>
+				<bi:property name="HEIGHT" value="360"/>
+				<bi:property name="CSS_STYLE" value="background: #111;"/>
+			</bi:component>
+		</bi:component>
+	</bi:component>
+</bi:biapp>
