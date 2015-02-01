@@ -1,0 +1,53 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+		<bi:property name="CUSTOM_CSS" value="style.css"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="PANEL_1" type="PANEL_COMPONENT">
+			<bi:property name="LEFT_MARGIN" value="32"/>
+			<bi:property name="TOP_MARGIN" value="-48"/>
+			<bi:property name="CSS_CLASS" value="window"/>
+			<bi:property name="WIDTH" value="470"/>
+			<bi:property name="HEIGHT" value="283"/>
+			<bi:component name="PANEL_2" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="0"/>
+				<bi:property name="TOP_MARGIN" value="0"/>
+				<bi:property name="CSS_CLASS" value="titlebar"/>
+				<bi:property name="WIDTH" value="471"/>
+				<bi:property name="HEIGHT" value="24"/>
+				<bi:component name="PANEL_3" type="PANEL_COMPONENT">
+					<bi:property name="LEFT_MARGIN" value="7"/>
+					<bi:property name="TOP_MARGIN" value="2"/>
+					<bi:property name="CSS_CLASS" value="close"/>
+					<bi:property name="WIDTH" value="19"/>
+					<bi:property name="HEIGHT" value="19"/>
+				</bi:component>
+				<bi:component name="TEXT_1" type="TEXT_COMPONENT">
+					<bi:property name="TEXT" value="Design Studio"/>
+					<bi:property name="LEFT_MARGIN" value="209"/>
+					<bi:property name="TOP_MARGIN" value="auto"/>
+					<bi:property name="CSS_STYLE" value="  font-family: HelveticaNeue, &apos;Helvetica Neue&apos;, &apos;Lucida Grande&apos;, Arial, sans-serif;"/>
+					<bi:property name="STYLE" value="HEADING1"/>
+					<bi:property name="WIDTH" value="101"/>
+					<bi:property name="HEIGHT" value="30"/>
+					<bi:property name="BOTTOM_MARGIN" value="-10"/>
+				</bi:component>
+			</bi:component>
+			<bi:component name="PANEL_4" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="31"/>
+				<bi:property name="TOP_MARGIN" value="2"/>
+				<bi:property name="CSS_CLASS" value="minimize"/>
+				<bi:property name="WIDTH" value="19"/>
+				<bi:property name="HEIGHT" value="19"/>
+			</bi:component>
+			<bi:component name="PANEL_5" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="59"/>
+				<bi:property name="TOP_MARGIN" value="2"/>
+				<bi:property name="CSS_CLASS" value="zoom"/>
+				<bi:property name="WIDTH" value="19"/>
+				<bi:property name="HEIGHT" value="19"/>
+			</bi:component>
+		</bi:component>
+	</bi:component>
+</bi:biapp>
