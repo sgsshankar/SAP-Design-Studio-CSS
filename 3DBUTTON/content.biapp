@@ -1,0 +1,35 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+		<bi:property name="CUSTOM_CSS" value="style.css"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="PANEL_1" type="PANEL_COMPONENT">
+			<bi:property name="LEFT_MARGIN" value="16"/>
+			<bi:property name="TOP_MARGIN" value="11"/>
+			<bi:property name="CSS_CLASS" value="btn_perspective"/>
+			<bi:property name="WIDTH" value="452"/>
+			<bi:property name="HEIGHT" value="200"/>
+			<bi:component name="PANEL_2" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="-16"/>
+				<bi:property name="TOP_MARGIN" value="22"/>
+				<bi:property name="CSS_CLASS" value="btn btn-3d btn-3da"/>
+			</bi:component>
+			<bi:component name="PANEL_3" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="178"/>
+				<bi:property name="TOP_MARGIN" value="22"/>
+				<bi:property name="CSS_CLASS" value="btn btn-3d btn-3db"/>
+			</bi:component>
+			<bi:component name="PANEL_4" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="-15"/>
+				<bi:property name="TOP_MARGIN" value="93"/>
+				<bi:property name="CSS_CLASS" value="btn btn-3d btn-3dc"/>
+			</bi:component>
+			<bi:component name="PANEL_5" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="177"/>
+				<bi:property name="TOP_MARGIN" value="93"/>
+				<bi:property name="CSS_CLASS" value="btn btn-3d btn-3dd"/>
+			</bi:component>
+		</bi:component>
+	</bi:component>
+</bi:biapp>
