@@ -1,0 +1,23 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+		<bi:property name="CUSTOM_CSS" value="style.css"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="PANEL_1" type="PANEL_COMPONENT">
+			<bi:property name="LEFT_MARGIN" value="131"/>
+			<bi:property name="TOP_MARGIN" value="155"/>
+			<bi:property name="CSS_CLASS" value="heart"/>
+		</bi:component>
+		<bi:component name="TEXT_1" type="TEXT_COMPONENT">
+			<bi:property name="TEXT" value="You&apos;re Data to my Dashboard"/>
+			<bi:property name="LEFT_MARGIN" value="156"/>
+			<bi:property name="TOP_MARGIN" value="269"/>
+			<bi:property name="CSS_CLASS" value="message"/>
+			<bi:property name="WIDTH" value="300"/>
+			<bi:property name="HEIGHT" value="280"/>
+			<bi:property name="STYLE" value="STANDARD"/>
+			<bi:property name="CSS_STYLE" value=""/>
+		</bi:component>
+	</bi:component>
+</bi:biapp>

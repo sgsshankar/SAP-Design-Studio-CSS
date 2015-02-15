@@ -1,0 +1,59 @@
+.heart {
+  position: relative;
+  width: 300px;
+  height: 280px;
+  margin: 100px auto;
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  background-color: #CC0033;
+  width: 150px;
+  height: 240px;
+  border-radius: 75px 75px 0 0;
+}
+
+.heart::before {
+  left: 0px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #cf9797;
+  box-shadow: -10px 1px 15px 0 rgba(0,0,0,0.2),
+    inset 20px -195px 65px 0 #CC0033, 
+    inset -2px 2px 0 rgba(255,255,255,.75), 
+    inset -5px 20px 0px rgba(255,255,255,.35), 
+    inset -5px 20px 10px rgba(255,255,255,.25);   
+}
+.heart::after {
+  left: 64px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  box-shadow: 
+    15px 3px 25px rgba(0,0,0,0.35),
+    inset -25px 10px 35px rgba(0,0,0,.35);
+    
+}
+
+.message {
+  font-family: 'Ovo';
+  font-size: 36px;
+  font-weight: bold;
+  color: #FF6666;
+  text-shadow: -1px -1px 1px #ae6363, 1px 1px 1px #450000;
+  padding: 50px 0 0 5px;
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+.message:fisrt-child {
+  text-indent: 1em;
+}
