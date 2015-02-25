@@ -1,0 +1,94 @@
+<bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+		<bi:property name="CUSTOM_CSS" value="style.css"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="PANEL_1" type="PANEL_COMPONENT">
+			<bi:property name="LEFT_MARGIN" value="18"/>
+			<bi:property name="TOP_MARGIN" value="22"/>
+			<bi:property name="HEIGHT" value="480"/>
+			<bi:property name="WIDTH" value="741"/>
+			<bi:property name="CSS_CLASS" value="container"/>
+			<bi:component name="PANEL_2" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="30"/>
+				<bi:property name="TOP_MARGIN" value="30"/>
+				<bi:property name="CSS_CLASS" value="card"/>
+				<bi:property name="WIDTH" value="672"/>
+				<bi:property name="HEIGHT" value="423"/>
+				<bi:component name="PANEL_3" type="PANEL_COMPONENT">
+					<bi:property name="LEFT_MARGIN" value="19"/>
+					<bi:property name="TOP_MARGIN" value="7"/>
+					<bi:property name="CSS_CLASS" value="innerContent"/>
+					<bi:property name="WIDTH" value="629"/>
+					<bi:property name="HEIGHT" value="408"/>
+					<bi:component name="TEXT_1" type="TEXT_COMPONENT">
+						<bi:property name="TEXT" value="Roses are #FF0000"/>
+						<bi:property name="LEFT_MARGIN" value="22"/>
+						<bi:property name="TOP_MARGIN" value="66"/>
+						<bi:property name="CSS_CLASS" value="text"/>
+						<bi:property name="WIDTH" value="416"/>
+						<bi:property name="HEIGHT" value="40"/>
+					</bi:component>
+					<bi:component name="TEXT_2" type="TEXT_COMPONENT">
+						<bi:property name="TEXT" value="Violets are #0000FF"/>
+						<bi:property name="LEFT_MARGIN" value="30"/>
+						<bi:property name="TOP_MARGIN" value="105"/>
+						<bi:property name="CSS_CLASS" value="text1"/>
+						<bi:property name="WIDTH" value="408"/>
+					</bi:component>
+					<bi:component name="PANEL_5" type="PANEL_COMPONENT">
+						<bi:property name="LEFT_MARGIN" value="606"/>
+						<bi:property name="TOP_MARGIN" value="-8"/>
+						<bi:property name="CSS_CLASS" value="bookmark"/>
+						<bi:property name="HEIGHT" value="150"/>
+					</bi:component>
+					<bi:component name="PANEL_4" type="PANEL_COMPONENT">
+						<bi:property name="LEFT_MARGIN" value="auto"/>
+						<bi:property name="TOP_MARGIN" value="auto"/>
+						<bi:property name="CSS_CLASS" value="heart"/>
+						<bi:property name="BOTTOM_MARGIN" value="334"/>
+						<bi:property name="RIGHT_MARGIN" value="312"/>
+						<bi:property name="WIDTH" value="24"/>
+						<bi:property name="HEIGHT" value="24"/>
+					</bi:component>
+					<bi:component name="TEXT_3" type="TEXT_COMPONENT">
+						<bi:property name="TEXT" value="You are the CSS to my HTML"/>
+						<bi:property name="LEFT_MARGIN" value="54"/>
+						<bi:property name="TOP_MARGIN" value="171"/>
+						<bi:property name="CSS_CLASS" value="text3"/>
+						<bi:property name="WIDTH" value="472"/>
+						<bi:property name="HEIGHT" value="85"/>
+						<bi:property name="STYLE" value="HEADING2"/>
+					</bi:component>
+					<bi:component name="TEXT_5" type="TEXT_COMPONENT">
+						<bi:property name="TEXT" value="The Data to my Dashboard"/>
+						<bi:property name="LEFT_MARGIN" value="125"/>
+						<bi:property name="TOP_MARGIN" value="286"/>
+						<bi:property name="CSS_CLASS" value="text3"/>
+						<bi:property name="WIDTH" value="472"/>
+						<bi:property name="HEIGHT" value="85"/>
+						<bi:property name="STYLE" value="HEADING2"/>
+					</bi:component>
+					<bi:component name="PANEL_7" type="PANEL_COMPONENT">
+						<bi:property name="LEFT_MARGIN" value="24"/>
+						<bi:property name="TOP_MARGIN" value="164"/>
+						<bi:property name="CSS_STYLE" value="width: 6px;&#13;&#10; height: 6px;&#13;&#10; background: transparent;&#13;&#10; box-shadow: 36px 6px #000,12px 0px #000,36px 0px #000,48px 0px #000,48px 6px #000,42px 0px #000,12px 6px #000,30px 0px #000,18px 0px #000,24px 0px #000,18px 6px #000,30px 6px #000,24px 6px #000,42px 6px #000,48px 12px #000,12px 12px #dba363,18px 12px #dba363,24px 12px #dba363,30px 12px #dba363,42px 12px #dba363,36px 12px #dba363,24px 24px #dba363,42px 24px #dba363,24px 30px #dba363,30px 30px #dba363,36px 30px #dba363,18px 30px #dba363,12px 18px #ffffff,30px 18px #ffffff,36px 54px #dba363,42px 54px #dba363,36px 60px #dba363,42px 60px #dba363,12px 30px #dba363,24px 18px #dba363,36px 72px #db6333,36px 66px #db6333,30px 72px #db6333,30px 66px #db6333,42px 66px #db6333,48px 60px #db6333,24px 66px #db6333,18px 66px #db6333,48px 66px #db6333,12px 72px #db6333,12px 66px #db6333,18px 72px #db6333,24px 72px #db6333,42px 72px #db6333,48px 72px #db6333,54px 72px #db6333,60px 72px #db6333,54px 66px #db6333,60px 66px #db6333,12px 78px #db6333,18px 78px #db6333,24px 78px #db6333,48px 78px #db6333,60px 78px #db6333,12px 84px #db6333,18px 84px #db6333,48px 84px #db6333,60px 84px #db6333,12px 90px #dba363,12px 96px #dba363,12px 102px #dba363,12px 108px #dba363,18px 108px #dba363,24px 108px #dba363,30px 108px #dba363,36px 108px #dba363,48px 108px #dba363,42px 108px #dba363,18px 96px #db6333,18px 90px #db6333,18px 102px #db6333,24px 102px #db6333,24px 90px #db6333,24px 96px #db6333,42px 90px #db6333,30px 102px #db6333,36px 102px #db6333,36px 96px #db6333,42px 102px #db6333,18px 120px #db6333,18px 114px #db6333,30px 114px #db6333,24px 114px #db6333,24px 120px #db6333,30px 120px #db6333,36px 114px #db6333,42px 120px #db6333,36px 120px #db6333,42px 114px #db6333,12px 24px #ffffff,30px 24px #ffffff,18px 18px #ffffff,36px 24px #000,18px 24px #000,18px 126px #db6333,24px 126px #db6333,30px 126px #db6333,36px 126px #db6333,42px 126px #db6333,48px 102px #dba363,18px 132px #688026,24px 138px #688026,24px 132px #688026,18px 138px #688026,30px 132px #688026,30px 138px #688026,36px 132px #688026,36px 138px #688026,42px 132px #688026,42px 144px #688026,42px 138px #688026,18px 144px #688026,36px 144px #688026,24px 144px #688026,30px 144px #688026,18px 150px #688026,18px 156px #688026,24px 162px #688026,24px 150px #688026,24px 156px #688026,18px 162px #688026,42px 150px #688026,42px 156px #688026,42px 162px #688026,24px 198px #dba363,24px 204px #dba363,24px 210px #dba363,24px 222px #dba363,24px 216px #dba363,18px 168px #688026,24px 168px #688026,18px 174px #688026,24px 174px #688026,24px 180px #688026,18px 180px #688026,48px 198px #dba363,48px 204px #dba363,48px 216px #dba363,48px 210px #dba363,42px 168px #688026,42px 174px #688026,42px 180px #688026,42px 186px #688026,18px 186px #688026,24px 186px #688026,18px 192px #688026,24px 192px #688026,42px 192px #688026,48px 222px #dba363,30px 228px #705433,24px 228px #dba363,18px 228px #dba363,12px 228px #dba363,24px 234px #705433,12px 234px #705433,18px 234px #705433,30px 234px #705433,42px 228px #705433,42px 234px #705433,54px 228px #705433,54px 234px #705433,42px 240px #705433,54px 240px #705433,48px 228px #dba363,48px 234px #dba363,48px 240px #dba363,36px 78px #e35444,30px 78px #db6333,36px 84px #db6333,30px 90px #db6333,24px 84px #db6333,42px 96px #db6333,42px 78px #db6333,42px 84px #db6333,36px 90px #db6333,30px 84px #db6333,30px 96px #db6333,18px 48px #dba363,30px 48px #dba363,24px 48px #000,42px 48px #dba363,12px 42px #dba363,12px 48px #dba363,30px 60px #e35444,36px 18px #ffffff,48px 24px #000,42px 18px #dba363,48px 18px #000,42px 42px #dba363,36px 48px #dba363,54px 78px #bf562d,54px 84px #bf562d,54px 96px #bf562d,54px 114px #bf562d,48px 96px #bf562d,54px 90px #bf562d,48px 90px #bf562d,54px 120px #bf562d,54px 126px #bf562d,48px 120px #bf562d,48px 126px #bf562d,48px 114px #bf562d,54px 138px #4b5c1b,54px 132px #4b5c1b,54px 150px #4b5c1b,54px 156px #4b5c1b,54px 192px #4b5c1b,54px 174px #4b5c1b,54px 168px #4b5c1b,54px 180px #4b5c1b,54px 186px #4b5c1b,48px 132px #4b5c1b,48px 138px #4b5c1b,54px 144px #4b5c1b,48px 144px #4b5c1b,48px 150px #4b5c1b,48px 156px #4b5c1b,48px 168px #4b5c1b,54px 162px #4b5c1b,48px 180px #4b5c1b,48px 174px #4b5c1b,48px 162px #4b5c1b,48px 192px #4b5c1b,48px 186px #4b5c1b,48px 30px #b88953,48px 36px #b88953,48px 48px #b88953,48px 42px #b88953,12px 36px #dba363,18px 36px #dba363,30px 36px #dba363,18px 42px #dba363,24px 42px #dba363,24px 36px #dba363,36px 42px #dba363,30px 42px #dba363,36px 36px #dba363,42px 36px #dba363,42px 30px #dba363,60px 90px #b88953,60px 102px #b88953,60px 96px #b88953,60px 108px #b88953,54px 108px #b88953,54px 102px #b88953,54px 246px #705433,42px 246px #705433,48px 246px #705433,6px 234px #705433;"/>
+						<bi:property name="BOTTOM_MARGIN" value="auto"/>
+					</bi:component>
+					<bi:component name="PANEL_6" type="PANEL_COMPONENT">
+						<bi:property name="LEFT_MARGIN" value="536"/>
+						<bi:property name="TOP_MARGIN" value="166"/>
+						<bi:property name="CSS_STYLE" value="width: 5px;&#13;&#10; height: 5px;&#13;&#10; font-size: 5px;&#13;&#10; background: black;&#13;&#10; margin: 30px auto;&#13;&#10; &#13;&#10; /* I forgot to mention that we are drawing a pixel girl here. So first, we&apos;ll draw the outline of the whole figure and then start coloring it. Coloring part will be easy. */&#13;&#10; &#13;&#10; box-shadow:&#13;&#10;  &#13;&#10;  /* Face */&#13;&#10;  -1em 0 black,&#13;&#10;  1em 0 black,&#13;&#10;  2em 1em black,&#13;&#10;  -2em 1em black,&#13;&#10;  3em 2em black,&#13;&#10;  -3em 2em black,&#13;&#10;  4em 3em black,&#13;&#10;  -4em 3em black,&#13;&#10;  4em 4em black,&#13;&#10;  -4em 4em black,&#13;&#10;  4em 5em black,&#13;&#10;  -4em 5em black,&#13;&#10;  4em 6em black,&#13;&#10;  -4em 6em black,&#13;&#10;  4em 7em black,&#13;&#10;  -4em 7em black,&#13;&#10;  3em 8em black,&#13;&#10;  -3em 8em black,&#13;&#10;  2em 9em black,&#13;&#10;  -2em 9em black,&#13;&#10;  1em 10em black,&#13;&#10;  -1em 10em black,&#13;&#10; &#13;&#10;  /* Eyes */&#13;&#10;  -1em 3em black,&#13;&#10;  -1em 4em black,&#13;&#10;  1em 3em black,&#13;&#10;  1em 4em black,&#13;&#10;  &#13;&#10;  /* Smile */&#13;&#10;  -2em 6em black,&#13;&#10;  2em 6em black,&#13;&#10;  -1em 7em black,&#13;&#10;  0em 7em black,&#13;&#10;  1em 7em black,&#13;&#10; &#13;&#10;  /* Face is complete, now we&apos;ll move onto the hair */&#13;&#10;  -2em -3em black,&#13;&#10;  -1em -3em black,&#13;&#10;  0em -3em black,&#13;&#10;  1em -3em black,&#13;&#10;  2em -3em black,&#13;&#10;  -3em -2em black,&#13;&#10;  3em -2em black,&#13;&#10;  4em -1em black,&#13;&#10;  -4em -1em black,&#13;&#10;  -5em 0 black,&#13;&#10;  -5em 1em black,&#13;&#10;  5em 0 black,&#13;&#10;  5em 1em black,&#13;&#10;  6em 7em black,&#13;&#10;  6em 2em black,&#13;&#10;  6em 3em black,&#13;&#10;  6em 4em black,&#13;&#10;  6em 5em black,&#13;&#10;  6em 6em black,&#13;&#10;  -6em 7em black,&#13;&#10;  -6em 2em black,&#13;&#10;  -6em 3em black,&#13;&#10;  -6em 4em black,&#13;&#10;  -6em 5em black,&#13;&#10;  -6em 6em black,&#13;&#10;  7em 8em black,&#13;&#10;  7em 9em black,&#13;&#10;  7em 10em black,&#13;&#10;  7em 11em black,&#13;&#10;  7em 12em black,&#13;&#10;  7em 13em black,&#13;&#10;  -7em 8em black,&#13;&#10;  -7em 9em black,&#13;&#10;  -7em 10em black,&#13;&#10;  -7em 11em black,&#13;&#10;  -7em 12em black,&#13;&#10;  -7em 13em black,&#13;&#10; &#13;&#10;  /* Now, the torso */&#13;&#10;  1em 11em black,&#13;&#10;  -1em 11em black,&#13;&#10;  2em 11em black,&#13;&#10;  -2em 11em black,&#13;&#10;  3em 11em black,&#13;&#10;  -3em 11em black,&#13;&#10;  -4em 12em black,&#13;&#10;  4em 12em black,&#13;&#10;  -5em 13em black,&#13;&#10;  5em 13em black,&#13;&#10;  -6em 14em black,&#13;&#10;  -6em 15em black,&#13;&#10;  -6em 16em black,&#13;&#10;  6em 14em black,&#13;&#10;  6em 15em black,&#13;&#10;  6em 16em black,&#13;&#10; &#13;&#10;  /* Topper */&#13;&#10;  -4em 16em black,&#13;&#10;  4em 16em black,&#13;&#10;  -3em 17em black,&#13;&#10;  -3em 18em black,&#13;&#10;  -3em 19em black,&#13;&#10;  -3em 20em black,&#13;&#10;  -3em 21em black,&#13;&#10;  -3em 22em black,&#13;&#10;  -3em 23em black,&#13;&#10;  -3em 24em black,&#13;&#10;  -3em 25em black,&#13;&#10;  3em 17em black,&#13;&#10;  3em 18em black,&#13;&#10;  3em 19em black,&#13;&#10;  3em 20em black,&#13;&#10;  3em 21em black,&#13;&#10;  3em 22em black,&#13;&#10;  3em 23em black,&#13;&#10;  3em 24em black,&#13;&#10;  3em 25em black,&#13;&#10;  2em 25em black,&#13;&#10;  1em 25em black,&#13;&#10;  0 25em black,&#13;&#10;  -1em 25em black,&#13;&#10;  -2em 25em black,&#13;&#10;  &#13;&#10;  /* Hands */&#13;&#10;  -5em 17em black,&#13;&#10;  -5em 18em black,&#13;&#10;  -5em 19em black,&#13;&#10;  -5em 20em black,&#13;&#10;  -5em 21em black,&#13;&#10;  -5em 22em black,&#13;&#10;  -5em 23em black,&#13;&#10;  -5em 24em black,&#13;&#10;  -5em 25em black,&#13;&#10;  5em 17em black,&#13;&#10;  5em 18em black,&#13;&#10;  5em 19em black,&#13;&#10;  5em 20em black,&#13;&#10;  5em 21em black,&#13;&#10;  5em 22em black,&#13;&#10;  5em 23em black,&#13;&#10;  5em 24em black,&#13;&#10;  5em 25em black,&#13;&#10;  4em 26em black,&#13;&#10;  -4em 26em black,&#13;&#10;  &#13;&#10;  /* Now only pants and shoes left :D */&#13;&#10;  /* Pants */&#13;&#10;  3em 26em black,&#13;&#10;  3em 27em black,&#13;&#10;  3em 28em black,&#13;&#10;  3em 29em black,&#13;&#10;  3em 30em black,&#13;&#10;  3em 31em black,&#13;&#10;  3em 32em black,&#13;&#10;  3em 33em black,&#13;&#10;  -3em 26em black,&#13;&#10;  -3em 27em black,&#13;&#10;  -3em 28em black,&#13;&#10;  -3em 29em black,&#13;&#10;  -3em 30em black,&#13;&#10;  -3em 31em black,&#13;&#10;  -3em 32em black,&#13;&#10;  -3em 33em black,&#13;&#10;  4em 34em black,&#13;&#10;  4em 35em black,&#13;&#10;  4em 36em black,&#13;&#10;  4em 37em black,&#13;&#10;  4em 38em black,&#13;&#10;  4em 39em black,&#13;&#10;  -4em 34em black,&#13;&#10;  -4em 35em black,&#13;&#10;  -4em 36em black,&#13;&#10;  -4em 37em black,&#13;&#10;  -4em 38em black,&#13;&#10;  -4em 39em black,&#13;&#10;  &#13;&#10;  0 26em black,&#13;&#10;  0 30em black,&#13;&#10;  0 31em black,&#13;&#10;  0 32em black,&#13;&#10;  0 33em black,&#13;&#10;  0 34em black,&#13;&#10;  0 35em black,&#13;&#10;  0 36em black,&#13;&#10;  0 37em black,&#13;&#10;  0 38em black,&#13;&#10;  0 39em black,&#13;&#10;  &#13;&#10;  /* Shoes */&#13;&#10;  -5em 40em black,&#13;&#10;  -4em 40em black,&#13;&#10;  -3em 40em black,&#13;&#10;  -2em 40em black,&#13;&#10;  -1em 40em black,&#13;&#10;  0 40em black,&#13;&#10;  1em 40em black,&#13;&#10;  2em 40em black,&#13;&#10;  3em 40em black,&#13;&#10;  4em 40em black,&#13;&#10;  5em 40em black,&#13;&#10;  -6em 41em black,&#13;&#10;  -6em 42em black,&#13;&#10;  6em 41em black,&#13;&#10;  6em 42em black,&#13;&#10;  -5em 43em black,&#13;&#10;  -4em 43em black,&#13;&#10;  -3em 43em black,&#13;&#10;  -2em 43em black,&#13;&#10;  -1em 43em black,&#13;&#10;  1em 43em black,&#13;&#10;  2em 43em black,&#13;&#10;  3em 43em black,&#13;&#10;  4em 43em black,&#13;&#10;  5em 43em black,&#13;&#10;  0 41em black,&#13;&#10;  0 42em black,&#13;&#10;  &#13;&#10;  /* Outlines are completed, now we&apos;ll color the character. For coloring, we will use size/spread parameter (4th parameter) of the box-shadow property to make our code comparitively smaller */&#13;&#10;  &#13;&#10;  /* Face */&#13;&#10;  0 5em 0 3em #FFF5C9,&#13;&#10;  0 1em 0 1em #FFF5C9,&#13;&#10;  0 8em 0 1em #FFF5C9,&#13;&#10;  0 10em #FFF5C9,&#13;&#10;  0 11em #FFF5C9,&#13;&#10;  0 12em #FFF5C9,&#13;&#10;  &#13;&#10;  /* Shirt */&#13;&#10;  0 15em 0 3em purple,&#13;&#10;  0 21em 0 3em purple,&#13;&#10;  4em 14em 0 1em purple,&#13;&#10;  -4em 14em 0 1em purple,&#13;&#10;  4em 15em 0 1em purple,&#13;&#10;  -4em 15em 0 1em purple,&#13;&#10;  &#13;&#10;  /* Pants */&#13;&#10;  0 29em 0 3em red,&#13;&#10;  0 36em 0 3em red,&#13;&#10;  &#13;&#10;  /* Hands */&#13;&#10;  0 20em 0 5em #FFF5C9,&#13;&#10;  &#13;&#10;  /* Hair */&#13;&#10;  0 0 0 2em brown,&#13;&#10;  -3em 0 0 1em brown,&#13;&#10;  3em 0 0 1em brown,&#13;&#10;  4em 3em 0 1em brown,&#13;&#10;  4em 6em 0 1em brown,&#13;&#10;  3em 10em 0 3em brown,&#13;&#10;  -4em 3em 0 1em brown,&#13;&#10;  -4em 6em 0 1em brown,&#13;&#10;  -3em 10em 0 3em brown,&#13;&#10;  &#13;&#10;  /* Shoes */&#13;&#10;  -1em 39em 0 3em pink,&#13;&#10;  1em 39em 0 3em pink,&#13;&#10;  -4em 42em 0 1em pink,&#13;&#10;  4em 42em 0 1em pink"/>
+					</bi:component>
+				</bi:component>
+			</bi:component>
+			<bi:component name="TEXT_4" type="TEXT_COMPONENT">
+				<bi:property name="TEXT" value="Shanky"/>
+				<bi:property name="LEFT_MARGIN" value="642"/>
+				<bi:property name="TOP_MARGIN" value="410"/>
+				<bi:property name="CSS_CLASS" value="signature"/>
+			</bi:component>
+		</bi:component>
+	</bi:component>
+</bi:biapp>
